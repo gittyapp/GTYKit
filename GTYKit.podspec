@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   url                 = 'https://github.com/gittyapp/GTYKit'
   git_url             = 'https://github.com/gittyapp/GTYKit.git'
-  version             = '0.0.2'
+  version             = '0.0.3'
 
   s.name              = 'GTYKit'
   s.version           = version
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.source_files     = 'GTYKit/Core/**/*.{h,m}'
-    core.frameworks       = 'Foundation'
+    core.frameworks       = 'Foundation', 'CoreGraphics'
     core.dependency         'MPSCategories', '~> 0.1'
   end
 

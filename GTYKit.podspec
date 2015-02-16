@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |c|
     c.source_files    = 'GTYKit/**/*.{h,m}'
     c.frameworks      = 'Foundation'
-    c.dependency        'Base64', '~> 1.0'
+    #c.dependency        'Base64', '~> 1.0'
     #c.dependency        'MPSCategories', :git => 'git@github.com:mps/MPSCategories.git'
-    c.dependency        'SAMCategories', '~> 0.4'
+    #c.dependency        'SAMCategories', '~> 0.4'
   end
 end

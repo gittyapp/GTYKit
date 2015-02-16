@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		088109754E931FE5058A0813 /* libPods-GTYKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D24CADDD72F0B974CE41A0E /* libPods-GTYKit.a */; };
 		3E85F04B5028669EF5F141D0 /* libPods-GTYKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF51DACC85A923D36B7CBE /* libPods-GTYKitTests.a */; };
+		69B69E751A926D73003C5B68 /* NSString+GTYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E721A926D73003C5B68 /* NSString+GTYAdditions.m */; };
+		69B69E7A1A926DD6003C5B68 /* GTYRouterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E791A926DD6003C5B68 /* GTYRouterBase.m */; };
 		69CFD3761A924C7400F5BA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3721A924C7400F5BA39 /* AppDelegate.m */; };
 		69CFD3771A924C7400F5BA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CFD3731A924C7400F5BA39 /* Images.xcassets */; };
 		69CFD3791A924C7400F5BA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3751A924C7400F5BA39 /* main.m */; };
@@ -62,7 +64,6 @@
 		69CFD4171A924EB700F5BA39 /* GTYTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3E41A924EB700F5BA39 /* GTYTeam.m */; };
 		69CFD4181A924EB700F5BA39 /* GTYTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3E61A924EB700F5BA39 /* GTYTree.m */; };
 		69CFD4191A924EB700F5BA39 /* GTYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3E81A924EB700F5BA39 /* GTYUser.m */; };
-		69CFD41E1A924F8300F5BA39 /* NSString+GTYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD41D1A924F8300F5BA39 /* NSString+GTYAdditions.m */; };
 		69CFD43C1A925A7400F5BA39 /* GTYIssueCommentSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD4331A925A7400F5BA39 /* GTYIssueCommentSpec.m */; };
 		69CFD43D1A925A7400F5BA39 /* GTYIssueEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD4341A925A7400F5BA39 /* GTYIssueEventSpec.m */; };
 		69CFD4401A925A7400F5BA39 /* GTYMilestoneSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD4371A925A7400F5BA39 /* GTYMilestoneSpec.m */; };
@@ -73,7 +74,6 @@
 		69CFD4471A925B5100F5BA39 /* GTYLabelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD4361A925A7400F5BA39 /* GTYLabelSpec.m */; };
 		69CFD4481A925B5300F5BA39 /* GTYIssueSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD4351A925A7400F5BA39 /* GTYIssueSpec.m */; };
 		69CFD44A1A925D7100F5BA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CFD4491A925D7100F5BA39 /* Main.storyboard */; };
-		69CFD47E1A925FAD00F5BA39 /* GTYRouterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD47D1A925FAD00F5BA39 /* GTYRouterBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +90,10 @@
 		15CF51DACC85A923D36B7CBE /* libPods-GTYKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTYKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D24CADDD72F0B974CE41A0E /* libPods-GTYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTYKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE47EBBCB3CD8739CB8763C /* Pods-GTYKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTYKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTYKitTests/Pods-GTYKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69B69E711A926D73003C5B68 /* NSString+GTYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GTYAdditions.h"; sourceTree = "<group>"; };
+		69B69E721A926D73003C5B68 /* NSString+GTYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTYAdditions.m"; sourceTree = "<group>"; };
+		69B69E781A926DD6003C5B68 /* GTYRouterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYRouterBase.h; sourceTree = "<group>"; };
+		69B69E791A926DD6003C5B68 /* GTYRouterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYRouterBase.m; sourceTree = "<group>"; };
 		69CFD3471A924C1200F5BA39 /* GTYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFD3601A924C1200F5BA39 /* GTYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFD3711A924C7400F5BA39 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -197,9 +201,6 @@
 		69CFD3E61A924EB700F5BA39 /* GTYTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYTree.m; sourceTree = "<group>"; };
 		69CFD3E71A924EB700F5BA39 /* GTYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYUser.h; sourceTree = "<group>"; };
 		69CFD3E81A924EB700F5BA39 /* GTYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYUser.m; sourceTree = "<group>"; };
-		69CFD41C1A924F8300F5BA39 /* NSString+GTYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GTYAdditions.h"; sourceTree = "<group>"; };
-		69CFD41D1A924F8300F5BA39 /* NSString+GTYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTYAdditions.m"; sourceTree = "<group>"; };
-		69CFD41F1A924FD800F5BA39 /* GTYRouterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYRouterBase.h; sourceTree = "<group>"; };
 		69CFD4331A925A7400F5BA39 /* GTYIssueCommentSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYIssueCommentSpec.m; sourceTree = "<group>"; };
 		69CFD4341A925A7400F5BA39 /* GTYIssueEventSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYIssueEventSpec.m; sourceTree = "<group>"; };
 		69CFD4351A925A7400F5BA39 /* GTYIssueSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYIssueSpec.m; sourceTree = "<group>"; };
@@ -211,7 +212,6 @@
 		69CFD43B1A925A7400F5BA39 /* GTYUserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYUserSpec.m; sourceTree = "<group>"; };
 		69CFD4451A925AFC00F5BA39 /* GTYKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTYKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		69CFD4491A925D7100F5BA39 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		69CFD47D1A925FAD00F5BA39 /* GTYRouterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYRouterBase.m; sourceTree = "<group>"; };
 		69F0300277C302990D9E663E /* Pods-GTYKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTYKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTYKitTests/Pods-GTYKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		7DD65914306D980BED582915 /* Pods-GTYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTYKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTYKit/Pods-GTYKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D0371E9B5CA9C648AFF8BDE9 /* Pods-GTYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTYKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTYKit/Pods-GTYKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +247,32 @@
 				D0371E9B5CA9C648AFF8BDE9 /* Pods-GTYKit.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		69B69E6F1A926D73003C5B68 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E701A926D73003C5B68 /* Categories */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		69B69E701A926D73003C5B68 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E711A926D73003C5B68 /* NSString+GTYAdditions.h */,
+				69B69E721A926D73003C5B68 /* NSString+GTYAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		69B69E771A926DD6003C5B68 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E781A926DD6003C5B68 /* GTYRouterBase.h */,
+				69B69E791A926DD6003C5B68 /* GTYRouterBase.m */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 		69CFD33E1A924C1200F5BA39 = {
@@ -306,8 +332,9 @@
 		69CFD3821A924EB700F5BA39 /* GTYKit */ = {
 			isa = PBXGroup;
 			children = (
-				69CFD41A1A924F8300F5BA39 /* Helpers */,
+				69B69E6F1A926D73003C5B68 /* Core */,
 				69CFD3831A924EB700F5BA39 /* Models */,
+				69B69E771A926DD6003C5B68 /* Routing */,
 			);
 			path = GTYKit;
 			sourceTree = "<group>";
@@ -439,25 +466,6 @@
 				69CFD3BC1A924EB700F5BA39 /* GTYWatchEvent.m */,
 			);
 			path = Events;
-			sourceTree = "<group>";
-		};
-		69CFD41A1A924F8300F5BA39 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				69CFD47D1A925FAD00F5BA39 /* GTYRouterBase.m */,
-				69CFD41F1A924FD800F5BA39 /* GTYRouterBase.h */,
-				69CFD41B1A924F8300F5BA39 /* Categories */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		69CFD41B1A924F8300F5BA39 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				69CFD41C1A924F8300F5BA39 /* NSString+GTYAdditions.h */,
-				69CFD41D1A924F8300F5BA39 /* NSString+GTYAdditions.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		69CFD4311A925A7400F5BA39 /* Models */ = {
@@ -666,7 +674,7 @@
 				69CFD4171A924EB700F5BA39 /* GTYTeam.m in Sources */,
 				69CFD4071A924EB700F5BA39 /* GTYCommit.m in Sources */,
 				69CFD3F01A924EB700F5BA39 /* GTYDownloadEvent.m in Sources */,
-				69CFD47E1A925FAD00F5BA39 /* GTYRouterBase.m in Sources */,
+				69B69E7A1A926DD6003C5B68 /* GTYRouterBase.m in Sources */,
 				69CFD4161A924EB700F5BA39 /* GTYStatus.m in Sources */,
 				69CFD3791A924C7400F5BA39 /* main.m in Sources */,
 				69CFD3FC1A924EB700F5BA39 /* GTYPublicEvent.m in Sources */,
@@ -675,7 +683,7 @@
 				69CFD4141A924EB700F5BA39 /* GTYRelease.m in Sources */,
 				69CFD40B1A924EB700F5BA39 /* GTYGollumPage.m in Sources */,
 				69CFD3F71A924EB700F5BA39 /* GTYIssueCommentEvent.m in Sources */,
-				69CFD41E1A924F8300F5BA39 /* NSString+GTYAdditions.m in Sources */,
+				69B69E751A926D73003C5B68 /* NSString+GTYAdditions.m in Sources */,
 				69CFD3F11A924EB700F5BA39 /* GTYEvent.m in Sources */,
 				69CFD3761A924C7400F5BA39 /* AppDelegate.m in Sources */,
 				69CFD40E1A924EB700F5BA39 /* GTYMilestone.m in Sources */,

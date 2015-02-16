@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		088109754E931FE5058A0813 /* libPods-GTYKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D24CADDD72F0B974CE41A0E /* libPods-GTYKit.a */; };
 		3E85F04B5028669EF5F141D0 /* libPods-GTYKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF51DACC85A923D36B7CBE /* libPods-GTYKitTests.a */; };
-		69B69E751A926D73003C5B68 /* NSString+GTYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E721A926D73003C5B68 /* NSString+GTYAdditions.m */; };
 		69B69E7A1A926DD6003C5B68 /* GTYRouterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E791A926DD6003C5B68 /* GTYRouterBase.m */; };
+		69B69E7D1A9272FD003C5B68 /* NSString+GTYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E7C1A9272FD003C5B68 /* NSString+GTYAdditions.m */; };
 		69CFD3761A924C7400F5BA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3721A924C7400F5BA39 /* AppDelegate.m */; };
 		69CFD3771A924C7400F5BA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CFD3731A924C7400F5BA39 /* Images.xcassets */; };
 		69CFD3791A924C7400F5BA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3751A924C7400F5BA39 /* main.m */; };
@@ -90,10 +90,10 @@
 		15CF51DACC85A923D36B7CBE /* libPods-GTYKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTYKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D24CADDD72F0B974CE41A0E /* libPods-GTYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTYKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE47EBBCB3CD8739CB8763C /* Pods-GTYKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTYKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTYKitTests/Pods-GTYKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		69B69E711A926D73003C5B68 /* NSString+GTYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GTYAdditions.h"; sourceTree = "<group>"; };
-		69B69E721A926D73003C5B68 /* NSString+GTYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTYAdditions.m"; sourceTree = "<group>"; };
 		69B69E781A926DD6003C5B68 /* GTYRouterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYRouterBase.h; sourceTree = "<group>"; };
 		69B69E791A926DD6003C5B68 /* GTYRouterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYRouterBase.m; sourceTree = "<group>"; };
+		69B69E7B1A9272FD003C5B68 /* NSString+GTYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GTYAdditions.h"; sourceTree = "<group>"; };
+		69B69E7C1A9272FD003C5B68 /* NSString+GTYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTYAdditions.m"; sourceTree = "<group>"; };
 		69CFD3471A924C1200F5BA39 /* GTYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFD3601A924C1200F5BA39 /* GTYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFD3711A924C7400F5BA39 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -252,18 +252,10 @@
 		69B69E6F1A926D73003C5B68 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				69B69E701A926D73003C5B68 /* Categories */,
+				69B69E7B1A9272FD003C5B68 /* NSString+GTYAdditions.h */,
+				69B69E7C1A9272FD003C5B68 /* NSString+GTYAdditions.m */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		69B69E701A926D73003C5B68 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				69B69E711A926D73003C5B68 /* NSString+GTYAdditions.h */,
-				69B69E721A926D73003C5B68 /* NSString+GTYAdditions.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		69B69E771A926DD6003C5B68 /* Routing */ = {
@@ -676,6 +668,7 @@
 				69CFD3F01A924EB700F5BA39 /* GTYDownloadEvent.m in Sources */,
 				69B69E7A1A926DD6003C5B68 /* GTYRouterBase.m in Sources */,
 				69CFD4161A924EB700F5BA39 /* GTYStatus.m in Sources */,
+				69B69E7D1A9272FD003C5B68 /* NSString+GTYAdditions.m in Sources */,
 				69CFD3791A924C7400F5BA39 /* main.m in Sources */,
 				69CFD3FC1A924EB700F5BA39 /* GTYPublicEvent.m in Sources */,
 				69CFD40D1A924EB700F5BA39 /* GTYLabel.m in Sources */,
@@ -683,7 +676,6 @@
 				69CFD4141A924EB700F5BA39 /* GTYRelease.m in Sources */,
 				69CFD40B1A924EB700F5BA39 /* GTYGollumPage.m in Sources */,
 				69CFD3F71A924EB700F5BA39 /* GTYIssueCommentEvent.m in Sources */,
-				69B69E751A926D73003C5B68 /* NSString+GTYAdditions.m in Sources */,
 				69CFD3F11A924EB700F5BA39 /* GTYEvent.m in Sources */,
 				69CFD3761A924C7400F5BA39 /* AppDelegate.m in Sources */,
 				69CFD40E1A924EB700F5BA39 /* GTYMilestone.m in Sources */,

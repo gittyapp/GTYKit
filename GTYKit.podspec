@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   name                = "GTYKit"
-  url                 = "https://github.com/SHOmniAuth/#{name}"
+  url                 = "https://github.com/gittyapp/#{name}"
   git_url             = "#{url}.git"
   version             = "0.0.1"
   source_files        = "#{name}/**/*.{h,m}"

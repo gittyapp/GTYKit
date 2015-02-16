@@ -88,7 +88,7 @@
     
     NSInteger deletions = [[self.files valueForKeyPath:@"@sum.deletions"] integerValue];
     
-	return [NSString stringWithFormat:@"%@ %ld %@%@ %@ %ld %@ %ld %@", NSLocalizedString(@"Showing", nil), self.files.count, NSLocalizedString(@"changed file", nil), self.files.count == 1 ? @"" : @"s", NSLocalizedString(@"with", nil), additions, NSLocalizedString(@"additions and", nil), (long)deletions, NSLocalizedString(@"deletions.", nil)];
+	return [NSString stringWithFormat:@"%@ %lu %@%@ %@ %lu %@ %lu %@", NSLocalizedString(@"Showing", nil), self.files.count, NSLocalizedString(@"changed file", nil), self.files.count == 1 ? @"" : @"s", NSLocalizedString(@"with", nil), additions, NSLocalizedString(@"additions and", nil), (long)deletions, NSLocalizedString(@"deletions.", nil)];
 }
 
 @end

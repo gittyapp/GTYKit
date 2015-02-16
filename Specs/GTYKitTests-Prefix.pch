@@ -1,0 +1,17 @@
+//
+//  GTYKitTests-Prefix.pch
+//  GTYKit
+//
+//  Created by Matthew Strickland on 2/16/15.
+//  Copyright (c) 2015 Idle Fusion. All rights reserved.
+//
+
+#ifndef GTYKit_GTYKitTests_Prefix_pch
+#define GTYKit_GTYKitTests_Prefix_pch
+
+#import <Specta/Specta.h>
+#define EXP_SHORTHAND
+#import <Expecta/Expecta.h>
+#import <OCMock/OCMock.h>
+#import <ISO8601DateFormatter/ISO8601DateFormatter.h>
+#endif

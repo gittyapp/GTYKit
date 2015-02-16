@@ -10,7 +10,11 @@
 		088109754E931FE5058A0813 /* libPods-GTYKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D24CADDD72F0B974CE41A0E /* libPods-GTYKit.a */; };
 		3E85F04B5028669EF5F141D0 /* libPods-GTYKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CF51DACC85A923D36B7CBE /* libPods-GTYKitTests.a */; };
 		69B69E7A1A926DD6003C5B68 /* GTYRouterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E791A926DD6003C5B68 /* GTYRouterBase.m */; };
-		69B69E7D1A9272FD003C5B68 /* NSString+GTYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E7C1A9272FD003C5B68 /* NSString+GTYAdditions.m */; };
+		69B69E8D1A92A108003C5B68 /* NSString+GTYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E891A92A108003C5B68 /* NSString+GTYAdditions.m */; };
+		69B69E8E1A92A108003C5B68 /* GTYHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E8C1A92A108003C5B68 /* GTYHelpers.m */; };
+		69B69E921A92A1B6003C5B68 /* GTYLocalAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E911A92A1B6003C5B68 /* GTYLocalAccount.m */; };
+		69B69E951A92A1CF003C5B68 /* GTYLocalAccountSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E941A92A1CF003C5B68 /* GTYLocalAccountSpec.m */; };
+		69B69E971A92A238003C5B68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B69E961A92A238003C5B68 /* CoreGraphics.framework */; };
 		69CFD3761A924C7400F5BA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3721A924C7400F5BA39 /* AppDelegate.m */; };
 		69CFD3771A924C7400F5BA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CFD3731A924C7400F5BA39 /* Images.xcassets */; };
 		69CFD3791A924C7400F5BA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFD3751A924C7400F5BA39 /* main.m */; };
@@ -92,8 +96,14 @@
 		5BE47EBBCB3CD8739CB8763C /* Pods-GTYKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTYKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTYKitTests/Pods-GTYKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69B69E781A926DD6003C5B68 /* GTYRouterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYRouterBase.h; sourceTree = "<group>"; };
 		69B69E791A926DD6003C5B68 /* GTYRouterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYRouterBase.m; sourceTree = "<group>"; };
-		69B69E7B1A9272FD003C5B68 /* NSString+GTYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GTYAdditions.h"; sourceTree = "<group>"; };
-		69B69E7C1A9272FD003C5B68 /* NSString+GTYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTYAdditions.m"; sourceTree = "<group>"; };
+		69B69E881A92A108003C5B68 /* NSString+GTYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GTYAdditions.h"; sourceTree = "<group>"; };
+		69B69E891A92A108003C5B68 /* NSString+GTYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTYAdditions.m"; sourceTree = "<group>"; };
+		69B69E8B1A92A108003C5B68 /* GTYHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYHelpers.h; sourceTree = "<group>"; };
+		69B69E8C1A92A108003C5B68 /* GTYHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYHelpers.m; sourceTree = "<group>"; };
+		69B69E901A92A1B6003C5B68 /* GTYLocalAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTYLocalAccount.h; sourceTree = "<group>"; };
+		69B69E911A92A1B6003C5B68 /* GTYLocalAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYLocalAccount.m; sourceTree = "<group>"; };
+		69B69E941A92A1CF003C5B68 /* GTYLocalAccountSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTYLocalAccountSpec.m; sourceTree = "<group>"; };
+		69B69E961A92A238003C5B68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		69CFD3471A924C1200F5BA39 /* GTYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFD3601A924C1200F5BA39 /* GTYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CFD3711A924C7400F5BA39 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -222,6 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B69E971A92A238003C5B68 /* CoreGraphics.framework in Frameworks */,
 				69CFD37E1A924CC500F5BA39 /* Foundation.framework in Frameworks */,
 				088109754E931FE5058A0813 /* libPods-GTYKit.a in Frameworks */,
 			);
@@ -252,8 +263,8 @@
 		69B69E6F1A926D73003C5B68 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				69B69E7B1A9272FD003C5B68 /* NSString+GTYAdditions.h */,
-				69B69E7C1A9272FD003C5B68 /* NSString+GTYAdditions.m */,
+				69B69E871A92A108003C5B68 /* Categories */,
+				69B69E8A1A92A108003C5B68 /* Helpers */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -265,6 +276,41 @@
 				69B69E791A926DD6003C5B68 /* GTYRouterBase.m */,
 			);
 			path = Routing;
+			sourceTree = "<group>";
+		};
+		69B69E871A92A108003C5B68 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E881A92A108003C5B68 /* NSString+GTYAdditions.h */,
+				69B69E891A92A108003C5B68 /* NSString+GTYAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		69B69E8A1A92A108003C5B68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E8B1A92A108003C5B68 /* GTYHelpers.h */,
+				69B69E8C1A92A108003C5B68 /* GTYHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		69B69E8F1A92A1B6003C5B68 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E901A92A1B6003C5B68 /* GTYLocalAccount.h */,
+				69B69E911A92A1B6003C5B68 /* GTYLocalAccount.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		69B69E931A92A1CF003C5B68 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E941A92A1CF003C5B68 /* GTYLocalAccountSpec.m */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		69CFD33E1A924C1200F5BA39 = {
@@ -304,6 +350,7 @@
 		69CFD37C1A924CA000F5BA39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69B69E961A92A238003C5B68 /* CoreGraphics.framework */,
 				69CFD37D1A924CC500F5BA39 /* Foundation.framework */,
 				15CF51DACC85A923D36B7CBE /* libPods-GTYKitTests.a */,
 				3D24CADDD72F0B974CE41A0E /* libPods-GTYKit.a */,
@@ -335,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				69CFD3841A924EB700F5BA39 /* API */,
+				69B69E8F1A92A1B6003C5B68 /* Authentication */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -463,6 +511,7 @@
 		69CFD4311A925A7400F5BA39 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				69B69E931A92A1CF003C5B68 /* Authentication */,
 				69CFD4321A925A7400F5BA39 /* API */,
 			);
 			path = Models;
@@ -668,7 +717,7 @@
 				69CFD3F01A924EB700F5BA39 /* GTYDownloadEvent.m in Sources */,
 				69B69E7A1A926DD6003C5B68 /* GTYRouterBase.m in Sources */,
 				69CFD4161A924EB700F5BA39 /* GTYStatus.m in Sources */,
-				69B69E7D1A9272FD003C5B68 /* NSString+GTYAdditions.m in Sources */,
+				69B69E8D1A92A108003C5B68 /* NSString+GTYAdditions.m in Sources */,
 				69CFD3791A924C7400F5BA39 /* main.m in Sources */,
 				69CFD3FC1A924EB700F5BA39 /* GTYPublicEvent.m in Sources */,
 				69CFD40D1A924EB700F5BA39 /* GTYLabel.m in Sources */,
@@ -680,12 +729,14 @@
 				69CFD3761A924C7400F5BA39 /* AppDelegate.m in Sources */,
 				69CFD40E1A924EB700F5BA39 /* GTYMilestone.m in Sources */,
 				69CFD3F51A924EB700F5BA39 /* GTYGistEvent.m in Sources */,
+				69B69E8E1A92A108003C5B68 /* GTYHelpers.m in Sources */,
 				69CFD3FE1A924EB700F5BA39 /* GTYPullRequestReviewCommentEvent.m in Sources */,
 				69CFD3E91A924EB700F5BA39 /* GTYCommitComment.m in Sources */,
 				69CFD3FD1A924EB700F5BA39 /* GTYPullRequestEvent.m in Sources */,
 				69CFD3F31A924EB700F5BA39 /* GTYForkApplyEvent.m in Sources */,
 				69CFD3FF1A924EB700F5BA39 /* GTYPushEvent.m in Sources */,
 				69CFD3F21A924EB700F5BA39 /* GTYFollowEvent.m in Sources */,
+				69B69E921A92A1B6003C5B68 /* GTYLocalAccount.m in Sources */,
 				69CFD3EE1A924EB700F5BA39 /* GTYDeploymentEvent.m in Sources */,
 				69CFD4151A924EB700F5BA39 /* GTYRepository.m in Sources */,
 				69CFD4131A924EB700F5BA39 /* GTYPullRequest.m in Sources */,
@@ -717,6 +768,7 @@
 				69CFD4441A925A7400F5BA39 /* GTYUserSpec.m in Sources */,
 				69CFD4461A925B4E00F5BA39 /* GTYObjectSpec.m in Sources */,
 				69CFD4431A925A7400F5BA39 /* GTYRepositorySpec.m in Sources */,
+				69B69E951A92A1CF003C5B68 /* GTYLocalAccountSpec.m in Sources */,
 				69CFD43D1A925A7400F5BA39 /* GTYIssueEventSpec.m in Sources */,
 				69CFD43C1A925A7400F5BA39 /* GTYIssueCommentSpec.m in Sources */,
 			);

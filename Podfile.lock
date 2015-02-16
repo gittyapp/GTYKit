@@ -11,25 +11,16 @@ DEPENDENCIES:
   - Base64 (~> 1.0)
   - Expecta (~> 0.3)
   - ISO8601DateFormatter (~> 0.7)
-  - MPSCategories (from `git@github.com:mps/MPSCategories.git`)
+  - MPSCategories (~> 0.1)
   - OCMock (~> 3.1)
   - SAMCategories (~> 0.4)
   - Specta (~> 0.3)
-
-EXTERNAL SOURCES:
-  MPSCategories:
-    :git: git@github.com:mps/MPSCategories.git
-
-CHECKOUT OPTIONS:
-  MPSCategories:
-    :commit: fe5730da47c28dc3c3a114f9af4a604bc5278298
-    :git: git@github.com:mps/MPSCategories.git
 
 SPEC CHECKSUMS:
   Base64: c6d74f31f150543b246a07e180ba813c88e59311
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
   ISO8601DateFormatter: 59731cd880cf87e71b4fa95f0d6b713dcbc4cbce
-  MPSCategories: 0bdb299401c768816cca8465c57bc66876f66bf7
+  MPSCategories: c0b9f8ba6ed2a96ce65c1412ea920c1a182163d1
   OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
   SAMCategories: dc26f9dc67d371d22f391ee2173bc607a887912e
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8

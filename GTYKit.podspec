@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.source_files      = source_files
 
   s.dependency          'Base64', '~> 1.0'
-  #s.dependency          'MPSCategories', :git => 'https://github.com/mps/MPSCategories.git', :branch => 'master'
+  s.dependency          'MPSCategories', '~> 0.1'
   s.dependency          'SAMCategories', '~> 0.4'
 end
